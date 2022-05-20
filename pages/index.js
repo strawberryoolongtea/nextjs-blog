@@ -39,6 +39,14 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+        <h2 className={utilStyles.headingLg}>Projects</h2>
+        <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem} key="projects001">
+            <Link href="https://codestates.notion.site/2-SuSang-YuHee-Debate-Ducks-142843d8e3524de2ae72fa2b66fc54f2">
+              <a target="_blank">Debate Ducks</a>
+            </Link>
+          </li>
+        </ul>
       </section>
     </Layout>
   );
